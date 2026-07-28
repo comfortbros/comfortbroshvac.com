@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Comfort Bros HVAC — Heating & Cooling Services</title>
+  <meta name="description" content="Local HVAC experts — installation, repair, maintenance, and 24/7 emergency service." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Comfort Bros</a>
+      <nav class="nav" id="nav">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact" class="cta">Get a Quote</a>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Reliable HVAC Services — Installation, Repair & Maintenance</h1>
+          <p>Fast, local, and licensed HVAC technicians. 24/7 emergency service. Free estimates.</p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#contact">Request Service</a>
+            <a class="btn outline" href="#services">Our Services</a>
+          </div>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1581579182584-5f13fb39a9ef?q=80&w=1400&auto=format&fit=crop" alt="HVAC technician" />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <p class="lede">Comprehensive heating, ventilation, and air conditioning services for homes and businesses.</p>
+        <div class="cards">
+          <article class="card">
+            <h3>AC Repair & Service</h3>
+            <p>Fast diagnostics, repairs, and seasonal tune-ups to keep your cooling running efficiently.</p>
+          </article>
+          <article class="card">
+            <h3>Heating Installation</h3>
+            <p>High-efficiency furnaces and heat pumps installed with warranty and permits handled.</p>
+          </article>
+          <article class="card">
+            <h3>Preventive Maintenance</h3>
+            <p>Annual maintenance plans to extend system life and lower energy bills.</p>
+          </article>
+          <article class="card">
+            <h3>Emergency Service</h3>
+            <p>24/7 emergency repairs—get back to comfort quickly.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container about-inner">
+        <div class="about-copy">
+          <h2>About Comfort Bros</h2>
+          <p>Family-owned HVAC company with 15+ years of experience serving the community. Licensed, insured, and committed to high-quality workmanship and friendly service.</p>
+          <ul>
+            <li>Licensed technicians</li>
+            <li>Transparent pricing</li>
+            <li>Same-day appointments</li>
+          </ul>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <strong>15+</strong>
+            <span>Years Experience</span>
+          </div>
+          <div class="stat">
+            <strong>4.9</strong>
+            <span>Average Rating</span>
+          </div>
+          <div class="stat">
+            <strong>24/7</strong>
+            <span>Emergency Support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials">
+      <div class="container">
+        <h2>What Customers Say</h2>
+        <div class="test-list">
+          <blockquote>
+            "Quick, professional, and the price was fair. Fixed our AC the same day!" — Sarah M.
+          </blockquote>
+          <blockquote>
+            "Annual checkups keep our system running smooth. Highly recommended." — David K.
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <div class="contact-form-wrap">
+          <h2>Request Service / Get a Quote</h2>
+          <p>Fill out the form or call us at <a href="tel:+1234567890">+1 (234) 567-890</a>.</p>
+
+          <!-- Formspree example: replace FORM_ENDPOINT with your Formspree endpoint or use Netlify forms -->
+          <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" />
+            </label>
+            <label>
+              Service Needed
+              <select name="service">
+                <option>AC Repair</option>
+                <option>Heating Repair</option>
+                <option>Installation</option>
+                <option>Maintenance</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4"></textarea>
+            </label>
+            <button type="submit" class="btn primary">Send Request</button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <h3>Visit or Call</h3>
+          <p><strong>Comfort Bros HVAC</strong><br/>123 Main St, Your City, ST</p>
+          <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a><br/>Email: <a href="mailto:info@comfortbros.com">info@comfortbros.com</a></p>
+          <div class="map-embed" aria-hidden="true">
+            <!-- Optional: replace with your Google Maps embed -->
+            <img src="https://images.unsplash.com/photo-1505691723518-36a0f1d28a80?q=80&w=800&auto=format&fit=crop" alt="Map placeholder" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Comfort Bros HVAC — Licensed & Insured</p>
+      <nav class="footer-nav">
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
